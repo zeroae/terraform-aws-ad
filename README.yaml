@@ -15,12 +15,12 @@ license: "APACHE2"
 
 # Copyrights
 copyrights:
-  - name: "Cloud Posse, LLC"
-    url: "https://cloudposse.com"
+  - name: "ZeroAE, LLC"
+    url: "https://zero-ae.com"
     year: "2020"
 
 # Canonical GitHub repo
-github_repo: cloudposse/terraform-example-module
+github_repo: zeroae/terraform-aws-ad
 
 # Badges to display
 badges:
