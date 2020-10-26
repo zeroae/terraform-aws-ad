@@ -1,14 +1,15 @@
-output "id" {
-  description = "ID of the created example"
-  value       = module.this.enabled ? module.this.id : null
+output subnet_ids {
+  value = "${aws_subnet.this.*.id}"
 }
 
-output "example" {
-  description = "Example output"
-  value       = module.this.enabled ? local.example : null
+output dns_ip_addresses {
+  value = "${aws_directory_service_directory.this.dns_ip_addresses}"
 }
 
-output "random" {
-  description = "Stable random number for this example"
-  value       = module.this.enabled ? join("", random_integer.example[*].result) : null
+output base_dn {
+  value = "${local.base_dn}"
+}
+
+output domain_name {
+  value = "${local.name}"
 }

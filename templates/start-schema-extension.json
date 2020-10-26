@@ -1,0 +1,6 @@
+{
+    "DirectoryId": "${directory_id}",
+    "CreateSnapshotBeforeSchemaExtension": true,
+    "LdifContent": ${ldif_content},
+    "Description": "${description}"
+}
